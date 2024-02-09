@@ -1,0 +1,234 @@
+:root {
+  --grey: rgb(208, 207, 207);
+  --blue: #7989d4;
+  --white: #f8f5f5;
+  --black: rgb(25, 23, 23);
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+.kodulyator {
+  padding-bottom: 90px;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+.scroll-box {
+  /* overflow: scroll; */
+}
+.scroll-wrapper {
+  /* overflow: hidden; */
+  position: fixed;
+  top: 409px;
+  left: 0;
+}
+.kodulyator-container {
+  width: 1200px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 409px;
+}
+.kodulyator-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.003em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.fixed-box {
+  position: fixed;
+  padding-top: 90px;
+  top: 0;
+  left: 0;
+  margin-bottom: 36px;
+}
+.form-searchvalue {
+  background-color: var(--grey);
+  padding: 32px;
+  border-radius: 8px;
+}
+.form-searchvalue-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.form-searchvalue-input {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--grey);
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--black);
+  background-color: var(--white);
+  width: 400px;
+}
+.form-searchvalue-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: inherit;
+}
+.resultsearch-wrapper {
+  margin-bottom: 36px;
+}
+.resultsearch-title {
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.003em;
+  margin-bottom: 24px;
+  color: var(--black);
+}
+.resultsearch-form {
+  background-color: var(--grey);
+  padding: 32px;
+  border-radius: 8px;
+}
+.resultsearch-codes-list {
+  list-style: none;
+}
+.resultsearch-codes-item {
+  position: relative;
+}
+.resultsearch-codes-item::before {
+  position: absolute;
+  content: "\27F6";
+  top: 0;
+  left: -32px;
+
+  display: block;
+}
+.resultsearch-codes-label {
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: var(--black);
+  display: inline-block;
+}
+.resultsearch-codes-value {
+}
+.resultsearch-codes-input {
+  display: inline-block;
+  margin-right: 8px;
+}
+.resultsearch-description-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  list-style: none;
+  gap: 12px;
+}
+.resultsearch-description-item {
+  position: relative;
+}
+.resultsearch-description-item::before {
+  content: "\00A7";
+  position: absolute;
+  top: 0;
+  left: -12px;
+}
+.resultsearch-description-text {
+  font-size: 14px;
+  line-height: 1.2;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.resulttax-wrapper {
+  background-color: var(--blue);
+  padding: 32px;
+  border-radius: 8px;
+}
+.resulttax-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.resulttax-label {
+  font-size: 16px;
+  display: flex;
+  gap: 12px;
+  line-height: 1.2;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: var(--black);
+  align-items: center;
+}
+.resulttax-input {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--grey);
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--black);
+  background-color: var(--white);
+}
+.resulttax-select {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--grey);
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--black);
+  background-color: var(--white);
+}
+.resulttax-option {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--grey);
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--black);
+  background-color: var(--white);
+}
+.resulttax-full-price {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.resulttax-relief-price {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  color: var(--black);
+}
+.resulttax-relief-price-value {
+  font-size: 20px;
+}
+.resulttax-full-price-value {
+  font-size: 20px;
+}

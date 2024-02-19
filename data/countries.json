@@ -1,0 +1,1222 @@
+[
+  {
+    "id": 0,
+    "fullCountryName": "АВСТРАЛІЯ",
+    "shortCountryName": "AU"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "АВСТРІЯ",
+    "shortCountryName": "AT"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "АЗЕРБАЙДЖАН",
+    "shortCountryName": "AZ"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "АЛАНДСЬКІ ОСТРОВИ",
+    "shortCountryName": "AX"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "АЛБАНІЯ",
+    "shortCountryName": "AL"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "АЛЖИР",
+    "shortCountryName": "DZ"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "АМЕРИКАНСЬКЕ САМОА",
+    "shortCountryName": "AS"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "АНҐІЛЬЯ",
+    "shortCountryName": "AI"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "АНҐОЛА",
+    "shortCountryName": "AO"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "АНДОРРА",
+    "shortCountryName": "AD"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "АНТАРКТИКА",
+    "shortCountryName": "AQ"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "АНТИҐУА І БАРБУДА",
+    "shortCountryName": "AG"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "АРГЕНТИНА",
+    "shortCountryName": "AR"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "АРУБА",
+    "shortCountryName": "AW"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "АФГАНІСТАН",
+    "shortCountryName": "AF"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "БАГАМСЬКІ ОСТРОВИ",
+    "shortCountryName": "BS"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "БАНҐЛАДЕШ",
+    "shortCountryName": "BD"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "БАРБАДОС",
+    "shortCountryName": "BB"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "БАХРЕЙН",
+    "shortCountryName": "BH"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "БЕЛІЗ",
+    "shortCountryName": "BZ"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "БЕЛЬҐІЯ",
+    "shortCountryName": "BE"
+  },
+  {
+    "id": 21,
+    "fullCountryName": "БЕНІН",
+    "shortCountryName": "BJ"
+  },
+  {
+    "id": 22,
+    "fullCountryName": "БЕРМУДСЬКІ ОСТРОВИ",
+    "shortCountryName": "BM"
+  },
+  {
+    "id": 23,
+    "fullCountryName": "БІЛОРУСЬ",
+    "shortCountryName": "BY"
+  },
+  {
+    "id": 24,
+    "fullCountryName": "БОЛГАРІЯ",
+    "shortCountryName": "BG"
+  },
+  {
+    "id": 25,
+    "fullCountryName": "БОЛІВІЯ, БАГАТОНАЦІОНАЛЬНА ДЕРЖАВА",
+    "shortCountryName": "BO"
+  },
+  {
+    "id": 26,
+    "fullCountryName": "БОСНІЯ І ГЕРЦЕҐОВИНА",
+    "shortCountryName": "BA"
+  },
+  {
+    "id": 27,
+    "fullCountryName": "БОТСВАНА",
+    "shortCountryName": "BW"
+  },
+  {
+    "id": 28,
+    "fullCountryName": "БРАЗІЛІЯ",
+    "shortCountryName": "BR"
+  },
+  {
+    "id": 29,
+    "fullCountryName": "БРИТАНСЬКА ТЕРИТОРІЯ В ІНДІЙСЬКОМУ ОКЕАНІ",
+    "shortCountryName": "IO"
+  },
+  {
+    "id": 30,
+    "fullCountryName": "БРУНЕЙ-ДАРУССАЛАМ",
+    "shortCountryName": "BN"
+  },
+  {
+    "id": 31,
+    "fullCountryName": "БУРКІНА-ФАСО",
+    "shortCountryName": "BF"
+  },
+  {
+    "id": 32,
+    "fullCountryName": "БУРУНДІ",
+    "shortCountryName": "BI"
+  },
+  {
+    "id": 33,
+    "fullCountryName": "БУТАН",
+    "shortCountryName": "BT"
+  },
+  {
+    "id": 0,
+    "fullCountryName": "ВАНУАТУ",
+    "shortCountryName": "VU"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "ВЕЛИКА БРИТАНІЯ",
+    "shortCountryName": "GB"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "ВЕНЕСУЕЛА БОЛІВАРСЬКА РЕСПУБЛІКА",
+    "shortCountryName": "VE"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "В'ЄТНАМ",
+    "shortCountryName": "VN"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "ВІРҐІНСЬКІ ОСТРОВИ (Брит.)",
+    "shortCountryName": "VG"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "ВІРҐІНСЬКІ ОСТРОВИ (США)",
+    "shortCountryName": "VI"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "ВІРМЕНІЯ",
+    "shortCountryName": "AM"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "ГАЇТІ",
+    "shortCountryName": "HT"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "ГАНА",
+    "shortCountryName": "GH"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "ГОНДУРАС",
+    "shortCountryName": "HN"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "ГОНКОНҐ",
+    "shortCountryName": "HK"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "ГРЕЦІЯ",
+    "shortCountryName": "GR"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "ГРУЗІЯ",
+    "shortCountryName": "GE"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "ҐАБОН",
+    "shortCountryName": "GA"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "ҐАЙАНА",
+    "shortCountryName": "GY"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "ҐАМБІЯ",
+    "shortCountryName": "GM"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "ҐВАДЕЛУПА",
+    "shortCountryName": "GP"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "ҐВАТЕМАЛА",
+    "shortCountryName": "GT"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "ҐВІНЕЯ",
+    "shortCountryName": "GN"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "ҐВІНЕЯ-БІСАУ",
+    "shortCountryName": "GW"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "ҐЕРНСІ",
+    "shortCountryName": "GG"
+  },
+  {
+    "id": 21,
+    "fullCountryName": "ҐІБРАЛТАР",
+    "shortCountryName": "GI"
+  },
+  {
+    "id": 22,
+    "fullCountryName": "ҐРЕНАДА",
+    "shortCountryName": "GD"
+  },
+  {
+    "id": 23,
+    "fullCountryName": "ҐРЕНЛАНДІЯ",
+    "shortCountryName": "GL"
+  },
+  {
+    "id": 24,
+    "fullCountryName": "ҐУАМ",
+    "shortCountryName": "GU"
+  },
+  {
+    "id": 25,
+    "fullCountryName": "ДАНІЯ",
+    "shortCountryName": "DK"
+  },
+  {
+    "id": 26,
+    "fullCountryName": "ДЖЕРСІ",
+    "shortCountryName": "JE"
+  },
+  {
+    "id": 27,
+    "fullCountryName": "ДЖІБУТІ",
+    "shortCountryName": "DJ"
+  },
+  {
+    "id": 28,
+    "fullCountryName": "ДОМІНІКА",
+    "shortCountryName": "DM"
+  },
+  {
+    "id": 29,
+    "fullCountryName": "ДОМІНІКАНСЬКА РЕСПУБЛІКА",
+    "shortCountryName": "DO"
+  },
+  {
+    "id": 30,
+    "fullCountryName": "ЕКВАДОР",
+    "shortCountryName": "EC"
+  },
+  {
+    "id": 31,
+    "fullCountryName": "ЕКВАТОРІАЛЬНА ҐВІНЕЯ",
+    "shortCountryName": "GQ"
+  },
+  {
+    "id": 32,
+    "fullCountryName": "ЕРІТРЕЯ",
+    "shortCountryName": "ER"
+  },
+  {
+    "id": 33,
+    "fullCountryName": "ЕСТОНІЯ",
+    "shortCountryName": "EE"
+  },
+  {
+    "id": 34,
+    "fullCountryName": "ЕФІОПІЯ",
+    "shortCountryName": "ET"
+  },
+  {
+    "id": 0,
+    "fullCountryName": "ЄГИПЕТ",
+    "shortCountryName": "EG"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "ЄМЕН",
+    "shortCountryName": "YE"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "ЗАМБІЯ",
+    "shortCountryName": "ZM"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "ЗАХІДНА САХАРА",
+    "shortCountryName": "EH"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "ЗІМБАБВЕ",
+    "shortCountryName": "ZW"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "ІЗРАЇЛЬ",
+    "shortCountryName": "IL"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "ІНДІЯ",
+    "shortCountryName": "IN"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "ІНДОНЕЗІЯ",
+    "shortCountryName": "ID"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "ІРАК",
+    "shortCountryName": "IQ"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "ІРАН, ІСЛАМСЬКА РЕСПУБЛІКА",
+    "shortCountryName": "IR"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "ІРЛАНДІЯ",
+    "shortCountryName": "IE"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "ІСЛАНДІЯ",
+    "shortCountryName": "IS"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "ІСПАНІЯ",
+    "shortCountryName": "ES"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "ІТАЛІЯ",
+    "shortCountryName": "IT"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "ЙОРДАНІЯ",
+    "shortCountryName": "JO"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "КАБО-ВЕРДЕ",
+    "shortCountryName": "CV"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "КАЗАХСТАН",
+    "shortCountryName": "KZ"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "КАЙМАНОВІ ОСТРОВИ",
+    "shortCountryName": "KY"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "КАМБОДЖА",
+    "shortCountryName": "KH"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "КАМЕРУН",
+    "shortCountryName": "CM"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "КАНАДА",
+    "shortCountryName": "CA"
+  },
+  {
+    "id": 21,
+    "fullCountryName": "КАТАР",
+    "shortCountryName": "QA"
+  },
+  {
+    "id": 22,
+    "fullCountryName": "КЕНІЯ",
+    "shortCountryName": "KE"
+  },
+  {
+    "id": 23,
+    "fullCountryName": "КИРГИЗСТАН",
+    "shortCountryName": "KG"
+  },
+  {
+    "id": 24,
+    "fullCountryName": "КИТАЙ",
+    "shortCountryName": "CN"
+  },
+  {
+    "id": 25,
+    "fullCountryName": "КІПР",
+    "shortCountryName": "CY"
+  },
+  {
+    "id": 26,
+    "fullCountryName": "КІРІБАТІ",
+    "shortCountryName": "KI"
+  },
+  {
+    "id": 27,
+    "fullCountryName": "КОКОСОВІ (КІЛІНҐ) ОСТРОВИ",
+    "shortCountryName": "CC"
+  },
+  {
+    "id": 28,
+    "fullCountryName": "КОЛИШНЯ ЮГОСЛАВСЬКА РЕСПУБЛІКА МАКЕДОНІЯ",
+    "shortCountryName": "MK"
+  },
+  {
+    "id": 29,
+    "fullCountryName": "КОЛУМБІЯ",
+    "shortCountryName": "CO"
+  },
+  {
+    "id": 30,
+    "fullCountryName": "КОНҐО, ДЕМОКРАТИЧНА РЕСПУБЛІКА",
+    "shortCountryName": "CD"
+  },
+  {
+    "id": 31,
+    "fullCountryName": "КОРЕЙСЬКА НАРОДНО-ДЕМОКРАТИЧНА РЕСПУБЛІКА",
+    "shortCountryName": "KP"
+  },
+  {
+    "id": 0,
+    "fullCountryName": "КУБА",
+    "shortCountryName": "CU"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "КУВЕЙТ",
+    "shortCountryName": "KW"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "ЛАОСЬКА НАРОДНО ДЕМОКРАТИЧНА РЕСПУБЛІКА",
+    "shortCountryName": "LA"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "ЛАТВІЯ",
+    "shortCountryName": "LV"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "ЛЕСОТО",
+    "shortCountryName": "LS"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "ЛИТВА",
+    "shortCountryName": "LT"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "ЛІБЕРІЯ",
+    "shortCountryName": "LR"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "ЛІВАН",
+    "shortCountryName": "LB"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "ЛІВІЙСЬКА АРАБСЬКА ДЖАМАХІРІЯ",
+    "shortCountryName": "LY"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "ЛІХТЕНШТЕЙН",
+    "shortCountryName": "LI"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "ЛЮКСЕМБУРҐ",
+    "shortCountryName": "LU"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "МАВРІКІЙ",
+    "shortCountryName": "MU"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "МАВРІТАНІЯ",
+    "shortCountryName": "MR"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "МАДАҐАСКАР",
+    "shortCountryName": "MG"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "МАЙОТТА",
+    "shortCountryName": "YT"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "МАКАО",
+    "shortCountryName": "MO"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "МАЛАВІ",
+    "shortCountryName": "MW"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "МАЛАЙЗІЯ",
+    "shortCountryName": "MY"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "МАЛІ",
+    "shortCountryName": "ML"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "МАЛІ ВІДДАЛЕНІ ОСТРОВИ США",
+    "shortCountryName": "UM"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "МАЛЬДІВИ",
+    "shortCountryName": "MV"
+  },
+  {
+    "id": 21,
+    "fullCountryName": "МАЛЬТА",
+    "shortCountryName": "MT"
+  },
+  {
+    "id": 22,
+    "fullCountryName": "МАРОККО",
+    "shortCountryName": "MA"
+  },
+  {
+    "id": 23,
+    "fullCountryName": "МАРТІНІКА",
+    "shortCountryName": "MQ"
+  },
+  {
+    "id": 24,
+    "fullCountryName": "МАРШАЛЛОВІ ОСТРОВИ",
+    "shortCountryName": "MH"
+  },
+  {
+    "id": 25,
+    "fullCountryName": "МЕКСИКА",
+    "shortCountryName": "MX"
+  },
+  {
+    "id": 26,
+    "fullCountryName": "МІКРОНЕЗІЯ, ФЕДЕРАТИВНІ ШТАТИ",
+    "shortCountryName": "FM"
+  },
+  {
+    "id": 27,
+    "fullCountryName": "МОЗАМБІК",
+    "shortCountryName": "MZ"
+  },
+  {
+    "id": 28,
+    "fullCountryName": "МОЛДОВА",
+    "shortCountryName": "MD"
+  },
+  {
+    "id": 29,
+    "fullCountryName": "МОНАКО",
+    "shortCountryName": "MC"
+  },
+  {
+    "id": 30,
+    "fullCountryName": "МОНГОЛІЯ",
+    "shortCountryName": "MN"
+  },
+  {
+    "id": 31,
+    "fullCountryName": "МОНТСЕРРАТ",
+    "shortCountryName": "MS"
+  },
+  {
+    "id": 32,
+    "fullCountryName": "М'ЯНМА",
+    "shortCountryName": "MM"
+  },
+  {
+    "id": 0,
+    "fullCountryName": "КОРЕЯ РЕСПУБЛІКА",
+    "shortCountryName": "KR"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "КОСТА РІКА",
+    "shortCountryName": "CR"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "КОТ Д'ІВУАР",
+    "shortCountryName": "CI"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "НІҐЕРІЯ",
+    "shortCountryName": "NG"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "НІДЕРЛАНДИ",
+    "shortCountryName": "NL"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "НІДЕРЛАНДСЬКІ АНТИЛЬСЬКІ ОСТРОВИ",
+    "shortCountryName": "AN"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "НІКАРАҐУА",
+    "shortCountryName": "NI"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "НІМЕЧЧИНА",
+    "shortCountryName": "DE"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "НІУЕ",
+    "shortCountryName": "NU"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "НОВА ЗЕЛАНДІЯ",
+    "shortCountryName": "NZ"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "НОВА КАЛЕДОНІЯ",
+    "shortCountryName": "NC"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "НОРВЕҐІЯ",
+    "shortCountryName": "NO"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "ОБ'ЄДНАНІ АРАБСЬКІ ЕМІРАТИ",
+    "shortCountryName": "AE"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "ОМАН",
+    "shortCountryName": "OM"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "ОСТРІВ БУВЕ",
+    "shortCountryName": "BV"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "ОСТРІВ ГЕРД І ОСТРОВИ МАКДОНАЛД",
+    "shortCountryName": "HM"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "ОСТРІВ МЕН",
+    "shortCountryName": "IM"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "ОСТРІВ НОРФОЛК",
+    "shortCountryName": "NF"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "ОСТРІВ РІЗДВА",
+    "shortCountryName": "CX"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "ОСТРІВ СВЯТОЇ ЄЛЕНИ",
+    "shortCountryName": "SH"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "ОСТРОВИ КУКА",
+    "shortCountryName": "CK"
+  },
+  {
+    "id": 21,
+    "fullCountryName": "ОСТРОВИ ТЕРКС І КАЙКОС",
+    "shortCountryName": "TC"
+  },
+  {
+    "id": 22,
+    "fullCountryName": "ПАКИСТАН",
+    "shortCountryName": "PK"
+  },
+  {
+    "id": 23,
+    "fullCountryName": "ПАЛАУ",
+    "shortCountryName": "PW"
+  },
+  {
+    "id": 24,
+    "fullCountryName": "ПАЛЕСТИНСЬКА ТЕРИТОРІЯ",
+    "shortCountryName": "PS"
+  },
+  {
+    "id": 25,
+    "fullCountryName": "ПАНАМА",
+    "shortCountryName": "PA"
+  },
+  {
+    "id": 26,
+    "fullCountryName": "ПАПУА НОВА ҐВІНЕЯ",
+    "shortCountryName": "PG"
+  },
+  {
+    "id": 27,
+    "fullCountryName": "ПАРАҐВАЙ",
+    "shortCountryName": "PY"
+  },
+  {
+    "id": 28,
+    "fullCountryName": "ПЕРУ",
+    "shortCountryName": "PE"
+  },
+  {
+    "id": 29,
+    "fullCountryName": "ПІВДЕННА АФРИКА",
+    "shortCountryName": "ZA"
+  },
+  {
+    "id": 30,
+    "fullCountryName": "ПІВДЕННА ДЖОРДЖІЯ ТА ПІВДЕННІ САНДВІЧЕВІ ОСТРОВИ",
+    "shortCountryName": "GS"
+  },
+  {
+    "id": 0,
+    "fullCountryName": "НАМІБІЯ",
+    "shortCountryName": "NA"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "НАУРУ",
+    "shortCountryName": "NR"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "НЕПАЛ",
+    "shortCountryName": "NP"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "НІҐЕР",
+    "shortCountryName": "NE"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "РУМУНІЯ",
+    "shortCountryName": "RO"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "САЛЬВАДОР",
+    "shortCountryName": "SV"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "САМОА",
+    "shortCountryName": "WS"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "САН МАРІНО",
+    "shortCountryName": "SM"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "САН ТОМЕ І ПРІНСІПІ",
+    "shortCountryName": "ST"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "САУДІВСЬКА АРАВІЯ",
+    "shortCountryName": "SA"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "СВАЗІЛЕНД",
+    "shortCountryName": "SZ"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "СВЯТИЙ ПРЕСТОЛ",
+    "shortCountryName": "VA"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "СЕЙШЕЛЬСЬКІ ОСТРОВИ",
+    "shortCountryName": "SC"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "СЕН БАРТЕЛЕМІ",
+    "shortCountryName": "BL"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "СЕНЕҐАЛ",
+    "shortCountryName": "SN"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "СЕН МАРТЕН",
+    "shortCountryName": "MF"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "СЕН П'ЄР І МІКЕЛОН",
+    "shortCountryName": "PM"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "СЕНТ ВІНСЕНТ І ҐРЕНАДІНИ",
+    "shortCountryName": "VC"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "СЕНТ КІТС І НЕВІС",
+    "shortCountryName": "KN"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "СЕНТ ЛЮСІЯ",
+    "shortCountryName": "LC"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "СЕРБІЯ",
+    "shortCountryName": "RS"
+  },
+  {
+    "id": 21,
+    "fullCountryName": "СІНҐАПУР",
+    "shortCountryName": "SG"
+  },
+  {
+    "id": 22,
+    "fullCountryName": "СИРІЙСЬКА АРАБСЬКА РЕСПУБЛІКА",
+    "shortCountryName": "SY"
+  },
+  {
+    "id": 23,
+    "fullCountryName": "СЛОВАЧЧИНА",
+    "shortCountryName": "SK"
+  },
+  {
+    "id": 24,
+    "fullCountryName": "СЛОВЕНІЯ",
+    "shortCountryName": "SI"
+  },
+  {
+    "id": 25,
+    "fullCountryName": "СОЛОМОНОВІ ОСТРОВИ",
+    "shortCountryName": "SB"
+  },
+  {
+    "id": 26,
+    "fullCountryName": "СОМАЛІ",
+    "shortCountryName": "SO"
+  },
+  {
+    "id": 27,
+    "fullCountryName": "СУДАН",
+    "shortCountryName": "SD"
+  },
+  {
+    "id": 28,
+    "fullCountryName": "СУРІНАМ",
+    "shortCountryName": "SR"
+  },
+  {
+    "id": 29,
+    "fullCountryName": "США",
+    "shortCountryName": "US"
+  },
+  {
+    "id": 30,
+    "fullCountryName": "СЬЄРРА ЛЕОНЕ",
+    "shortCountryName": "SL"
+  },
+  {
+    "id": 31,
+    "fullCountryName": "ТАДЖИКИСТАН",
+    "shortCountryName": "TJ"
+  },
+  {
+    "id": 32,
+    "fullCountryName": "ТАЇЛАНД",
+    "shortCountryName": "TH"
+  },
+  {
+    "id": 33,
+    "fullCountryName": "ТАЙВАНЬ, ПРОВІНЦІЯ КИТАЮ",
+    "shortCountryName": "TW"
+  },
+  {
+    "id": 0,
+    "fullCountryName": "ПІВНІЧНІ МАРІАНСЬКІ ОСТРОВИ",
+    "shortCountryName": "MP"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "ПІТКЕРН",
+    "shortCountryName": "PN"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "ПОЛЬЩА",
+    "shortCountryName": "PL"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "ПОРТУҐАЛІЯ",
+    "shortCountryName": "PT"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "ПУЕРТО РІКО",
+    "shortCountryName": "PR"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "РЕЮНЬЙОН",
+    "shortCountryName": "RE"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "РОСІЙСЬКА ФЕДЕРАЦІЯ",
+    "shortCountryName": "RU"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "РУАНДА",
+    "shortCountryName": "RW"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "ТУВАЛУ",
+    "shortCountryName": "TV"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "ТУНІС",
+    "shortCountryName": "TN"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "ТУРЕЧЧИНА",
+    "shortCountryName": "TR"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "ТУРКМЕНІСТАН",
+    "shortCountryName": "TM"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "УҐАНДА",
+    "shortCountryName": "UG"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "УГОРЩИНА",
+    "shortCountryName": "HU"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "УЗБЕКИСТАН",
+    "shortCountryName": "UZ"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "УКРАЇНА",
+    "shortCountryName": "UA"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "УОЛЛІС І ФУТУНА",
+    "shortCountryName": "WF"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "УРУҐВАЙ",
+    "shortCountryName": "UY"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "ФАРЕРСЬКІ ОСТРОВИ",
+    "shortCountryName": "FO"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "ФІДЖІ",
+    "shortCountryName": "FJ"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "ФІЛІППІНИ",
+    "shortCountryName": "PH"
+  },
+  {
+    "id": 21,
+    "fullCountryName": "ФІНЛЯНДІЯ",
+    "shortCountryName": "FI"
+  },
+  {
+    "id": 22,
+    "fullCountryName": "ФОЛКЛЕНДСЬКІ (МАЛЬВІНСЬКІ) ОСТРОВИ",
+    "shortCountryName": "FK"
+  },
+  {
+    "id": 23,
+    "fullCountryName": "ФРАНЦІЯ",
+    "shortCountryName": "FR"
+  },
+  {
+    "id": 0,
+    "fullCountryName": "ТАНЗАНІЯ ОБ'ЄДНАНА РЕСПУБЛІКА",
+    "shortCountryName": "TZ"
+  },
+  {
+    "id": 1,
+    "fullCountryName": "ТІМОР ЛЕШТІ",
+    "shortCountryName": "TL"
+  },
+  {
+    "id": 2,
+    "fullCountryName": "ТОҐО",
+    "shortCountryName": "TG"
+  },
+  {
+    "id": 3,
+    "fullCountryName": "ТОКЕЛАУ",
+    "shortCountryName": "TK"
+  },
+  {
+    "id": 4,
+    "fullCountryName": "ТОНҐА",
+    "shortCountryName": "TO"
+  },
+  {
+    "id": 5,
+    "fullCountryName": "ТРИНІДАД І ТОБАҐО",
+    "shortCountryName": "TT"
+  },
+  {
+    "id": 6,
+    "fullCountryName": "ФРАНЦУЗЬКА ҐВІАНА",
+    "shortCountryName": "GF"
+  },
+  {
+    "id": 7,
+    "fullCountryName": "ФРАНЦУЗЬКА ПОЛІНЕЗІЯ",
+    "shortCountryName": "PF"
+  },
+  {
+    "id": 8,
+    "fullCountryName": "ФРАНЦУЗЬКІ ПІВДЕННІ ТЕРИТОРІЇ",
+    "shortCountryName": "TF"
+  },
+  {
+    "id": 9,
+    "fullCountryName": "ХОРВАТІЯ",
+    "shortCountryName": "HR"
+  },
+  {
+    "id": 10,
+    "fullCountryName": "ЦЕНТРАЛЬНОАФРИКАНСЬКА РЕСПУБЛІКА",
+    "shortCountryName": "CF"
+  },
+  {
+    "id": 11,
+    "fullCountryName": "ЧАД",
+    "shortCountryName": "TD"
+  },
+  {
+    "id": 12,
+    "fullCountryName": "ЧОРНОГОРІЯ",
+    "shortCountryName": "ME"
+  },
+  {
+    "id": 13,
+    "fullCountryName": "ЧЕХІЯ",
+    "shortCountryName": "CZ"
+  },
+  {
+    "id": 14,
+    "fullCountryName": "ЧІЛІ",
+    "shortCountryName": "CL"
+  },
+  {
+    "id": 15,
+    "fullCountryName": "ШВЕЙЦАРІЯ",
+    "shortCountryName": "CH"
+  },
+  {
+    "id": 16,
+    "fullCountryName": "ШВЕЦІЯ",
+    "shortCountryName": "SE"
+  },
+  {
+    "id": 17,
+    "fullCountryName": "ШПІЦБЕРҐЕН ТА ЯН МАЄН",
+    "shortCountryName": "SJ"
+  },
+  {
+    "id": 18,
+    "fullCountryName": "ШРІ ЛАНКА",
+    "shortCountryName": "LK"
+  },
+  {
+    "id": 19,
+    "fullCountryName": "ЯМАЙКА",
+    "shortCountryName": "JM"
+  },
+  {
+    "id": 20,
+    "fullCountryName": "ЯПОНІЯ",
+    "shortCountryName": "JP"
+  }
+]

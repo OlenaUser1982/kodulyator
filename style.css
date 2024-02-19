@@ -32,23 +32,24 @@ button {
   background-color: var(--white);
   border-radius: 8px;
 }
-.scroll-box {
-  /* overflow: scroll; */
-}
+
 .scroll-wrapper {
-  /* overflow: hidden; */
-  position: fixed;
+  overflow-y: scroll;
+  max-height: 600px;
   top: 409px;
   left: 0;
+  margin-bottom: 60px;
 }
+
 .kodulyator-container {
   width: 1200px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 409px;
+  padding-top: 90px;
 }
+
 .kodulyator-title {
   font-size: 36px;
   line-height: 1.2;
@@ -58,13 +59,18 @@ button {
   margin-bottom: 60px;
 }
 .fixed-box {
-  position: fixed;
-  padding-top: 90px;
+  position: sticky;
   top: 0;
   left: 0;
-  margin-bottom: 36px;
+  /* margin-bottom: 36px; */
+  z-index: 1;
+  background-color: var(--white);
+  padding-bottom: 60px;
 }
 .form-searchvalue {
+  position: sticky;
+  top: 0;
+  left: 0;
   background-color: var(--grey);
   padding: 32px;
   border-radius: 8px;
@@ -232,3 +238,9 @@ button {
 .resulttax-full-price-value {
   font-size: 20px;
 }
+
+/* .test {
+  max-height: 1200px;
+  position: relative;
+  overflow: hidden;
+} */

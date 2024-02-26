@@ -1,6 +1,8 @@
-export const makeCodesListMarkup = (array) => {
-  return array
-    .map(({ code, descriptions }) => {
+export const makeCodesListMarkup = (object) => {
+  return Object.keys(object)
+    .map((propCode) => {
+      const { code, descriptions } = object[propCode];
+
       return `<li class="resultsearch-codes-item">
                     <label class="resultsearch-codes-label" for=${code}
                       ><input
@@ -26,6 +28,13 @@ export const makeCodesListMarkup = (array) => {
                      
                     </ul>
                   </li>`;
+    })
+    .join("");
+};
+export const makeCurrencyListMarkup = (array) => {
+  return array
+    .map(({ cc, txt, rate }) => {
+      return `<option class="resulttax-option" data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`;
     })
     .join("");
 };

@@ -238,9 +238,8 @@ button {
 .resulttax-full-price-value {
   font-size: 20px;
 }
-
-/* .test {
-  max-height: 1200px;
-  position: relative;
-  overflow: hidden;
-} */
+.resulttax-labelwrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}

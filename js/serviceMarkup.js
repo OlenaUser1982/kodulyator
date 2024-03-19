@@ -1,4 +1,4 @@
-export const makeCodesListMarkup = (object) => {
+export const makeFullCodesListMarkup = (object) => {
   return Object.keys(object)
     .map((propCode) => {
       const { code, descriptions } = object[propCode];
@@ -31,6 +31,28 @@ export const makeCodesListMarkup = (object) => {
     })
     .join("");
 };
+export const makeNotFullCodesListMarkup = (array) => {
+  return array
+    .map(({ code, description }) => {
+      return `<li class="resultsearch-codes-item">
+                    <label class="resultsearch-codes-label" for=${code}
+                      ><input
+                        class="resultsearch-codes-input"
+                        name="codeUCTZED"
+                        id=${code}
+                          value=${code}
+                        type="radio"
+                      />Код УКТЗЕД:
+                      <span class="resultsearch-codes-value">${code}</span>
+                    </label>
+                        <p class="resultsearch-description-text">
+                          ${description}
+                        </p>
+                      </li>`;
+    })
+    .join("");
+};
+
 export const makeCurrencyListMarkup = (array) => {
   return array
     .map(({ cc, txt, rate }) => {

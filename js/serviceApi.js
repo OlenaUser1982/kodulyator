@@ -1,7 +1,20 @@
 import axios from "axios";
 const baseURL = "https://api.iloc.com.ua";
 // export const token = "";
-export const token = "11|Tf6MRFVmUVfg4uh3fkvygPmMPqw13XqrzLHvv1fw53c3e40b";
+
+export const token = (function () {
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  const authorizedParam = urlSearchParams.get("authorized");
+
+  if (authorizedParam && authorizedParam.toLowerCase() === 'true') {
+    console.log('Authorized!');
+    return "11|Tf6MRFVmUVfg4uh3fkvygPmMPqw13XqrzLHvv1fw53c3e40b";
+  } else {
+    console.log('Not Authorized!');
+    return '';
+  }
+})();
+
 axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
 export const fetchCodesByQuery = async (query) => {
   const { data } = await axios(`${baseURL}/codes?query=${query}`);

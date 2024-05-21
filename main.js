@@ -3,12 +3,12 @@ import {
   fetchTaxesByCode,
   fetchRatesAllCurrency,
   token,
-} from "./js/serviceApi";
+} from "./js/serviceApi.js";
 import {
   makeFullCodesListMarkup,
   makeNotFullCodesListMarkup,
   makeCurrencyListMarkup,
-} from "./js/serviceMarkup";
+} from "./js/serviceMarkup.js";
 import currencyList from "./currency.json";
 const invoiceInputEl = document.querySelector("#invoice");
 const currencySelectEl = document.querySelector("#currency");

@@ -2,7 +2,7 @@ import {
   fetchCodesByQuery,
   fetchTaxesByCode,
   fetchRatesAllCurrency,
-  token,
+  // token,
 } from "./js/serviceApi.js";
 import {
   makeFullCodesListMarkup,
@@ -36,15 +36,16 @@ const handleSearchValueFormSubmit = async (e) => {
   const query = e.target.elements.valueForSearch.value.trim();
   try {
     const data = await fetchCodesByQuery(query);
+    console.log('handleSearchValueFormSubmit', data);
     let codesListMarkup;
-    if (token) {
+    // if (token) {
       codesListMarkup = makeFullCodesListMarkup(data);
       const currencyListMarkup = makeCurrencyListMarkup(currencyList);
 
       currencySelectEl.innerHTML = currencyListMarkup;
-    } else {
-      codesListMarkup = makeNotFullCodesListMarkup(data);
-    }
+    // } else {
+    //   codesListMarkup = makeNotFullCodesListMarkup(data);
+    // }
 
     resultListEl.innerHTML = codesListMarkup;
   } catch (error) {
@@ -52,10 +53,11 @@ const handleSearchValueFormSubmit = async (e) => {
   }
 };
 const handleResultSearchFormSubmit = async (e) => {
-  if (!token) return;
+  // if (!token) return;
   const { code, normal, discounted, description } = await fetchTaxesByCode(
     e.target.value
   );
+  console.log('handleResultSearchFormSubmit', code, normal, discounted, description);
   ratesAllCurrency = await fetchRatesAllCurrency();
   data.discounted = parseFloat(discounted) / 100;
   data.normal = parseFloat(normal) / 100;
@@ -75,7 +77,7 @@ const handleInvoiceInput = (e) => {
   const totalDiscounted = parseFloat(
     (tollDiscounted + VAT_discounted).toFixed(2)
   );
-
+  console.log('handleResultSearchFormSubmit', data);
   totalNormalEl.innerHTML = `${totalNormal} ${data.currency}/${
     totalNormal * data.rate
   } ${data.baseCurrency} `;

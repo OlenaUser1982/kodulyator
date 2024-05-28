@@ -54,6 +54,8 @@ export const makeNotFullCodesListMarkup = (array) => {
 };
 
 export const makeCurrencyListMarkup = (array) => {
+  array.unshift({ cc: "", txt: "", rate: "" });
+
   return array
     .map(({ cc, txt, rate }) => {
       return `<option class="resulttax-option" data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`;

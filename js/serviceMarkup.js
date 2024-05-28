@@ -13,7 +13,8 @@ export const makeFullCodesListMarkup = (object) => {
                         type="radio"
                       />Код УКТЗЕД:
                       <span class="resultsearch-codes-value">${code}</span>
-                    </label>
+                   <button class="copy-code" type="button">copy</button> </label>
+                    
                     <ul class="resultsearch-description-list">
                     ${descriptions
                       .map((item) => {
@@ -21,6 +22,7 @@ export const makeFullCodesListMarkup = (object) => {
                         <p class="resultsearch-description-text">
                           ${item}
                         </p>
+                         <button class="copy-description" type="button">copy</button>
                       </li>`;
                       })
                       .join("")}
@@ -56,7 +58,9 @@ export const makeNotFullCodesListMarkup = (array) => {
 export const makeCurrencyListMarkup = (array) => {
   return array
     .map(({ cc, txt, rate }) => {
-      return `<option class="resulttax-option" data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`;
+      return cc === "USD"
+        ? `<option class="resulttax-option" selected data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`
+        : `<option class="resulttax-option" data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`;
     })
     .join("");
 };

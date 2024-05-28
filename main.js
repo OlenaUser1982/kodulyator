@@ -25,7 +25,7 @@ const data = {
   discounted: 0,
   normal: 0,
   code: "",
-  currency: "",
+  currency: "USD",
   rate: 0,
   baseCurrency: "UAH",
 };
@@ -59,14 +59,15 @@ const handleResultSearchFormSubmit = async (e) => {
   ratesAllCurrency = await fetchRatesAllCurrency();
   data.discounted = parseFloat(discounted) / 100;
   data.normal = parseFloat(normal) / 100;
+  data.rate = ratesAllCurrency.find(({ currency_code }) => {
+    return currency_code === "USD";
+  }).rate;
   resultTaxFormEl.elements.resultTaxInput.value = code;
   resultTaxFormEl.elements.discountTax.value = discounted;
   resultTaxFormEl.elements.normalTax.value = normal;
 };
-
-const handleInvoiceInput = (e) => {
-  const value = parseFloat(e.target.value);
-
+const calculateAndRenderCosts = () => {
+  const value = parseFloat(invoiceInputEl.value || 0);
   const VAT_normal = (value * data.normal + value) * 0.2;
   const VAT_discounted = (value * data.discounted + value) * 0.2;
   const tollNormal = parseFloat((value * data.normal).toFixed(2));
@@ -76,20 +77,41 @@ const handleInvoiceInput = (e) => {
     (tollDiscounted + VAT_discounted).toFixed(2)
   );
 
-  totalNormalEl.innerHTML = `${totalNormal} ${data.currency}/${
+  totalNormalEl.innerHTML = `${totalNormal} ${data.currency}/${(
     totalNormal * data.rate
-  } ${data.baseCurrency} `;
-  totalDiscountedEl.innerHTML = `${totalDiscounted} ${data.currency}/${
+  ).toFixed(2)} ${data.baseCurrency} `;
+  totalDiscountedEl.innerHTML = `${totalDiscounted} ${data.currency}/${(
     totalDiscounted * data.rate
-  } ${data.baseCurrency} `;
+  ).toFixed(2)} ${data.baseCurrency} `;
+};
+const handleInvoiceInput = (e) => {
+  calculateAndRenderCosts();
 };
 const handleCurrencySelectChange = (e) => {
   data.currency = e.target.value;
   data.rate = ratesAllCurrency.find(({ currency_code }) => {
     return currency_code === e.target.value;
   }).rate;
+  calculateAndRenderCosts();
+};
+const handleSearchValueFormClick = (e) => {
+  if (e.target.classList.contains("copy-code")) {
+    navigator.clipboard.writeText(
+      e.target
+        .closest(".resultsearch-codes-label")
+        .querySelector(".resultsearch-codes-value").textContent
+    );
+  }
+  if (e.target.classList.contains("copy-description")) {
+    navigator.clipboard.writeText(
+      e.target
+        .closest(".resultsearch-description-item")
+        .querySelector(".resultsearch-description-text").textContent
+    );
+  }
 };
 searchValueFormEl.addEventListener("submit", handleSearchValueFormSubmit);
 resultsearchFormEl.addEventListener("change", handleResultSearchFormSubmit);
 invoiceInputEl.addEventListener("input", handleInvoiceInput);
 currencySelectEl.addEventListener("change", handleCurrencySelectChange);
+resultsearchFormEl.addEventListener("click", handleSearchValueFormClick);

@@ -134,14 +134,30 @@ button {
 
   display: block;
 }
+.copy-code {
+  display: none;
+  position: absolute;
+  top: 16px;
+  right: 68px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
 .resultsearch-codes-label {
+  position: relative;
   font-size: 16px;
+  padding: 12px 120px 12px 12px;
   line-height: 1.2;
   font-style: italic;
   margin-bottom: 20px;
   color: var(--black);
   display: inline-block;
+  &:hover .copy-code,
+  &:focus .copy-code {
+    display: inline-block;
+  }
 }
+
 .resultsearch-codes-value {
 }
 .resultsearch-codes-input {
@@ -157,6 +173,20 @@ button {
 }
 .resultsearch-description-item {
   position: relative;
+  margin-bottom: 20px;
+  padding: 40px 60px 12px 12px;
+  &:hover .copy-description {
+    display: inline-block;
+  }
+}
+.copy-description {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 4px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
 }
 .resultsearch-description-item::before {
   content: "\00A7";
@@ -168,7 +198,7 @@ button {
   font-size: 14px;
   line-height: 1.2;
   font-style: italic;
-  margin-bottom: 20px;
+
   color: var(--black);
 }
 .resulttax-wrapper {

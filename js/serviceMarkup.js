@@ -1,7 +1,7 @@
 export const makeFullCodesListMarkup = (object) => {
   return Object.keys(object)
     .map((propCode) => {
-      const { code, descriptions } = object[propCode];
+      const {code, descriptions} = object[propCode];
 
       return `<li class="resultsearch-codes-item">
                     <label class="resultsearch-codes-label" for=${code}
@@ -13,17 +13,19 @@ export const makeFullCodesListMarkup = (object) => {
                         type="radio"
                       />Код УКТЗЕД:
                       <span class="resultsearch-codes-value">${code}</span>
-                    </label>
+                   <button class="copy-code" type="button">copy</button> </label>
+                    
                     <ul class="resultsearch-description-list">
                     ${descriptions
-                      .map((item) => {
-                        return `    <li class="resultsearch-description-item">
+        .map((item) => {
+          return `    <li class="resultsearch-description-item">
                         <p class="resultsearch-description-text">
                           ${item}
                         </p>
+                         <button class="copy-description" type="button">copy</button>
                       </li>`;
-                      })
-                      .join("")}
+        })
+        .join("")}
                      
                      
                     </ul>
@@ -33,7 +35,7 @@ export const makeFullCodesListMarkup = (object) => {
 };
 export const makeNotFullCodesListMarkup = (array) => {
   return array
-    .map(({ code, description }) => {
+    .map(({code, description}) => {
       return `<li class="resultsearch-codes-item">
                     <label class="resultsearch-codes-label" for=${code}
                       ><input
@@ -54,11 +56,12 @@ export const makeNotFullCodesListMarkup = (array) => {
 };
 
 export const makeCurrencyListMarkup = (array) => {
-  array.unshift({ cc: "", txt: "", rate: "" });
-
+  array.unshift({cc: "", txt: "", rate: ""});
   return array
-    .map(({ cc, txt, rate }) => {
-      return `<option class="resulttax-option" data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`;
+    .map(({cc, txt, rate}) => {
+      return cc === ""
+        ? `<option class="resulttax-option" selected data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`
+        : `<option class="resulttax-option" data-rate=${rate} value=${cc}>${cc} - ${txt}</option>`;
     })
     .join("");
 };

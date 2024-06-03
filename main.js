@@ -90,6 +90,15 @@ const handleCurrencySelectChange = (e) => {
   data.rate = ratesAllCurrency.find(({ currency_code }) => {
     return currency_code === e.target.value;
   }).rate;
+
+  // Create a new event
+  const event = new Event('input', {
+    bubbles: true,
+    cancelable: true,
+  });
+
+  // Dispatch the event
+  invoiceInputEl.dispatchEvent(event);
 };
 searchValueFormEl.addEventListener("submit", handleSearchValueFormSubmit);
 resultsearchFormEl.addEventListener("change", handleResultSearchFormSubmit);

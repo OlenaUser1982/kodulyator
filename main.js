@@ -25,7 +25,7 @@ const data = {
   discounted: 0,
   normal: 0,
   code: "",
-  currency: "USD",
+  currency: "UAH",
   rate: 0,
   baseCurrency: "UAH",
 };
@@ -59,9 +59,10 @@ const handleResultSearchFormSubmit = async (e) => {
   ratesAllCurrency = await fetchRatesAllCurrency();
   data.discounted = parseFloat(discounted) / 100;
   data.normal = parseFloat(normal) / 100;
-  data.rate = ratesAllCurrency.find(({ currency_code }) => {
-    return currency_code === "USD";
-  }).rate;
+  data.rate = 1;
+  // data.rate = ratesAllCurrency.find(({ currency_code }) => {
+  //   return currency_code === "USD";
+  // }).rate;
   resultTaxFormEl.elements.resultTaxInput.value = code;
   resultTaxFormEl.elements.discountTax.value = discounted;
   resultTaxFormEl.elements.normalTax.value = normal;

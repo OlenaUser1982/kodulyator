@@ -25,7 +25,7 @@ const data = {
   discounted: 0,
   normal: 0,
   code: "",
-  currency: "",
+  currency: "UAH",
   rate: 0,
   baseCurrency: "UAH",
 };
@@ -87,9 +87,10 @@ const handleInvoiceInput = (e) => {
 };
 const handleCurrencySelectChange = (e) => {
   data.currency = e.target.value;
-  data.rate = ratesAllCurrency.find(({ currency_code }) => {
-    return currency_code === e.target.value;
-  }).rate;
+  data.rate = 1;
+  // data.rate = ratesAllCurrency.find(({ currency_code }) => {
+  //   return currency_code === "USD";
+  // }).rate;
 
   // Create a new event
   const event = new Event('input', {
